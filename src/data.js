@@ -1,6 +1,6 @@
 // ============ რედაქტირება აქ ხდება ============
 // 1) ფორმის მისამართი (Formspree): ჩაწერე შენი ბმული, მაგ. "https://formspree.io/f/abcdwxyz"
-export const SITE = { formEndpoint: "", contactEmail: "" };
+export const SITE = { formEndpoint: "https://formspree.io/f/mbgozgwp", contactEmail: "barbarejavakhishvili2@gmail.com" };
 
 // 2) ახალი ტექსტის დასამატებლად დააკოპირე ერთი ბლოკი {...} ქვემოთ და შეცვალე ტექსტი.
 // type: "article" (სტატია) | "review" (მიმოხილვა) | "creative" (შემოქმედება)
