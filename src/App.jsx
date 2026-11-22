@@ -108,7 +108,7 @@ function Authors() {
       <h2 className="sect">მიმდინარეობები</h2>
       <div className="grid">{MOVEMENTS.map((m, i) => <Reveal key={m.name} delay={i * 80}><div className="card plain"><h3>{m.name}</h3><p>{m.text}</p></div></Reveal>)}</div>
       <h2 className="sect">ავტორები</h2>
-      <div className="grid four">{AUTHORS.map((m, i) => <Reveal key={m.name} delay={i * 80}><div className="card plain"><h3>{m.name}</h3><p>{m.text}</p></div></Reveal>)}</div>
+     <div className="grid four">{AUTHORS.map((m, i) => <Reveal key={m.name} delay={i * 80}><div className="card plain">{m.photo && <img className="cover portrait" src={m.photo} alt={m.name} loading="lazy" />}<h3>{m.name}</h3><p>{m.text}</p></div></Reveal>)}</div>
     </section>
   );
 }
