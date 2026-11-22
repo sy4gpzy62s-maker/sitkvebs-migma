@@ -4,7 +4,7 @@ export const SITE = { formEndpoint: "", contactEmail: "" };
 
 // 2) ახალი ტექსტის დასამატებლად დააკოპირე ერთი ბლოკი {...} ქვემოთ და შეცვალე ტექსტი.
 // type: "article" (სტატია) | "review" (მიმოხილვა) | "creative" (შემოქმედება)
-// cover: სურათის გზა, მაგ. "/images/biblioteka.jpg" (ფაილი ჩააგდე public/images საქაღალდეში). ცარიელი "" = მხატვრული ორნამენტი.
+// cover: სურათის გზა, მაგ. "images/biblioteka.jpg" (ფაილი ჩააგდე public/images საქაღალდეში, წინ ხაზის გარეშე). ცარიელი "" = მხატვრული ორნამენტი.
 // body: აბზაცების სია — ყოველი ტექსტი ბრჭყალებში, მძიმით გამოყოფილი.
 export const ITEMS = [
   { id: "ZVELI-cignebi", type: "article", category: "ესეისტიკა", title: "რატომ ვკითხულობთ ძველ წიგნებს", author: "ნინო ბერიძე", date: "2026-10-12", cover: "", coverAlt: "",
