@@ -75,9 +75,7 @@ function Home() {
           <p className="lead">ესეები, მიმოხილვები, ლექსები და მოთხრობები მათთვის, ვისაც ფურცლის უკან დარჩენილი ხმის მოსმენა უყვარს.</p>
           <div className="actions"><a className="btn" href="#/articles">წაიკითხე სტატიები</a><a className="btn ghost" href="#/submit">გამოგვიგზავნე ნაშრომი</a></div>
         </div>
-        <a className="hero-feature" href={`#/article/${f.id}`}>
-          <Cover item={f} /><div className="meta">{f.category}</div><h2>{f.title}</h2><span className="by">{f.author}</span>
-        </a>
+        <Cover item={f} />
       </section>
       <section className="wrap"><Reveal><h2 className="sect">ახალი ნომრიდან</h2></Reveal>
         <div className="grid">{rest.slice(0, 3).map((x, i) => <Card key={x.id} item={x} i={i} />)}</div></section>
