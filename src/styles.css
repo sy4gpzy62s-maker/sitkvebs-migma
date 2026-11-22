@@ -53,3 +53,4 @@ input,select,textarea{font:inherit;color:var(--ink);background:rgba(255,248,236,
 @media(max-width:900px){.hero{grid-template-columns:1fr;min-height:0;gap:2.5rem}.grid,.grid.four{grid-template-columns:1fr 1fr}.grid>.reveal{margin-top:0!important}}
 @media(max-width:600px){.grid,.grid.four{grid-template-columns:1fr}.wrap{padding:2rem 1.1rem}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+.cover.portrait{aspect-ratio:3/4;margin-bottom:.8rem}
