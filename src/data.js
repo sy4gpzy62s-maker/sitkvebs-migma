@@ -36,7 +36,7 @@ export const MOVEMENTS = [
 ];
 export const AUTHORS = [
     { name: "ნიკოლოზ ბარათაშვილი", text: "რომანტიკოსი პოეტი, „მერანის“ ავტორი.", photo: "images/nikoloz.baratashvili.jpg" },
-  { name: "ილია ჭავჭავაძე", text: "მწერალი, პუბლიცისტი და საზოგადო მოღვაწე.", photo: "images/ilia.chavchavadze.jpg" },
+  { name: "ილია ჭავჭავაძე", text: "მწერალი, პუბლიცისტი და საზოგადო მოღვაწე.", photo: "images/Ilia.chavchavadze.jpg" },
   { name: "ვაჟა-ფშაველა", text: "პოეტი და პროზაიკოსი, ბუნებისა და ადამიანის დიდი მთხრობელი.", photo: "images/vaja.jpg" },
   { name: "გალაკტიონ ტაბიძე", text: "სიმბოლისტი პოეტი, ქართული ლექსის ერთ-ერთი უდიდესი სახელი.", photo: "images/galaktioni.jpg" },
 ];
