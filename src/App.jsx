@@ -72,14 +72,14 @@ function Home() {
         <div className="hero-text">
           <p className="kicker">დამოუკიდებელი ლიტერატურული ჟურნალი</p>
           <h1>სიტყვებს მიღმა</h1>
-          <p className="lead">ესეები, მიმოხილვები, ლექსები და მოთხრობები მათთვის, ვისაც ფურცლის უკან დარჩენილი ხმის მოსმენა უყვარს.</p>
+          <p className="lead">წიგნები გვასწავლის, როგორ ვიცხოვროთ ათასი ცხოვრებით, მაშინაც კი, როცა მხოლოდ ერთი გვაქვს.</p>
           <div className="actions"><a className="btn" href="#/articles">წაიკითხე სტატიები</a><a className="btn ghost" href="#/submit">გამოგვიგზავნე ნაშრომი</a></div>
         </div>
         <Cover item={f} />
       </section>
       <section className="wrap"><Reveal><h2 className="sect">ახალი ნომრიდან</h2></Reveal>
         <div className="grid">{rest.slice(0, 3).map((x, i) => <Card key={x.id} item={x} i={i} />)}</div></section>
-      <Reveal className="quote"><blockquote>წიგნი ის კარია, რომელსაც მხოლოდ შიგნიდან ამჩნევ.</blockquote><p>რედაქციის დევიზი (შეცვალე საკუთარით)</p></Reveal>
+      <Reveal className="quote"><blockquote>წიგნი ის კარია, რომელსაც მხოლოდ შიგნიდან ამჩნევ.</blockquote><p>რედაქციის დევიზი ()</p></Reveal>
       <section className="wrap center"><Reveal><h2 className="sect">გაქვს დაწერილი ტექსტი?</h2><p className="lead">ჩვენ ვეძებთ ახალ ხმებს. ლექსი, ესე თუ მოთხრობა — გამოგვიგზავნე.</p><a className="btn" href="#/submit">ნაშრომის გაგზავნა</a></Reveal></section>
     </>
   );
