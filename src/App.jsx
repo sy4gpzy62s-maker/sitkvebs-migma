@@ -79,7 +79,7 @@ function Home() {
       </section>
       <section className="wrap"><Reveal><h2 className="sect">ახალი ნომრიდან</h2></Reveal>
         <div className="grid">{rest.slice(0, 3).map((x, i) => <Card key={x.id} item={x} i={i} />)}</div></section>
-      <Reveal className="quote"><blockquote>წიგნი ის კარია, რომელსაც მხოლოდ შიგნიდან ამჩნევ.</blockquote><p>რედაქციის დევიზი ()</p></Reveal>
+      <Reveal className="quote"><blockquote>წიგნი ის კარია, რომელსაც მხოლოდ შიგნიდან ამჩნევ.</blockquote><p>რედაქციის დევიზი </p></Reveal>
       <section className="wrap center"><Reveal><h2 className="sect">გაქვს დაწერილი ტექსტი?</h2><p className="lead">ჩვენ ვეძებთ ახალ ხმებს. ლექსი, ესე თუ მოთხრობა — გამოგვიგზავნე.</p><a className="btn" href="#/submit">ნაშრომის გაგზავნა</a></Reveal></section>
     </>
   );
