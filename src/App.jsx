@@ -104,7 +104,7 @@ function ArticlePage({ id }) {
 function Authors() {
   return (
     <section className="wrap">
-      <Head title="ავტორები და ლიტერატურა" lead="ლიტერატურული მიმდინარეობები და სახელები, რომლებიც ქართულ მწერლობას აყალიბებდნენ." />
+      <Head title="ავტორები და ლიტერატურა" lead="ლიტერატურული მიმდინარეობები და ავტორები." />
       <h2 className="sect">მიმდინარეობები</h2>
       <div className="grid">{MOVEMENTS.map((m, i) => <Reveal key={m.name} delay={i * 80}><div className="card plain"><h3>{m.name}</h3><p>{m.text}</p></div></Reveal>)}</div>
       <h2 className="sect">ავტორები</h2>
